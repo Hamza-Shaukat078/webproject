@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upload Project</title>
+  <link rel="stylesheet" href="style.css"> <!-- Use your main CSS file -->
+</head>
+<body>
+
+<!-- Header with Profile -->
+<header class="header">
+  <div class="profile">
+    <img src="huz.png" alt="Profile Picture" class="profile-pic">
+    <span class="profile-name">Huzaifa</span>
+  </div>
+</header>
+
+<!-- Main content area for upload module -->
+<main class="main-content">
+  <h1 class="upload-title">Upload Project</h1>
+  
+  <!-- Upload form -->
+  <form class="upload-form">
+    <label for="project-title">Project Title</label>
+    <input type="text" id="project-title" name="project-title" required>
+
+    <label for="project-description">Project Description</label>
+    <textarea id="project-description" name="project-description" rows="4" required></textarea>
+
+    <label for="github-link">GitHub Repository Link</label>
+    <input type="url" id="github-link" name="github-link" required>
+
+    <button type="submit" class="submit-button">Upload Project</button>
+  </form>
+</main>
+
+</body>
+</html>
